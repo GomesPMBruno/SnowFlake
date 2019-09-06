@@ -15,7 +15,8 @@
 ### -> Cominciato a creare gli altri file, e lasciato questi problemi da risolvere a casa.
 
 ##  Punto della situazione rispetto alla pianificazione
-
+### Più in ritardo a rispetto agli altri.
 
 ## Programma di massima per la prossima giornata di lavoro
 ### Creare tutti i File/Cartelle necessari.
+### Cominciare a programmare.
