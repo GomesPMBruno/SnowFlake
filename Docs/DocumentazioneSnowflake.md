@@ -55,7 +55,11 @@
 
 ### Informazioni sul progetto
 
-  Progetto per il Modulo 306 del 3° anno di Scuola. I nostri 2 docenti per questo modulo, Luca Muggiasca e --- Petrini, ci hanno chiesto di creare un programma dove si possa 
+  Progetto per il Modulo 306 del 3° anno di Scuola, nella sezione di Informatica. I nostri 2 docenti per questo modulo, Luca Muggiasca e --- Petrini, ci hanno chiesto di creare un programma dove si possa creare dei Fiocchi di Neve. Per fare questo si deve scegliere il pattern di un triangolo creando dei poligoni che cancellano parte del triangolo. Il progetto è iniziato il 6/9/2019 e finisce il 13/12/2019.
+  
+  
+  
+  -------
   In questo capitolo raccogliere le informazioni relative al progetto, ad esempio:
 
   -   Allievo/i e docente/i coinvolti nel progetto e rispettivi ruoli,
@@ -168,7 +172,7 @@
   
   
   
-
+  ------------
   -   Quali sono i bisogni del committente?
 
   -   Quali funzioni deve svolgere il prodotto?
