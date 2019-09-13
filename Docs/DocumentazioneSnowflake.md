@@ -147,7 +147,7 @@
   Per eseguire il progetto, I nostri maestri ci hanno datto delle specifiche che dobbiamo riagiungere.
   Queste specifiche, obbligatorie o meno, sono delle caratteristiche che il progetto deve raggrupare.
   
-  #####Questo lavoro sarà svolto utilizzando il Linguaggio JAVA, e quindi il progetto ha come requisiti minimi:
+  ##### Questo lavoro sarà svolto utilizzando il Linguaggio JAVA, e quindi il progetto ha come requisiti minimi:
   
   - La creazione di un sito con una propria descrizione del software svolto.
   - Deve essere possibile scaricare il software.
@@ -161,7 +161,7 @@
   - Il salvataggio deve avere dimensioni definite dall'utente.
   - Deve essere possibile salvare i punti di taglio.
   
-  #####Come Bonus ci è stato anche proposto di fare:
+  ##### Come Bonus ci è stato anche proposto di fare:
   - La generazione deve avvenire in tempo reale.
   - I punti devono poter essere spostati o rimossi.
   
