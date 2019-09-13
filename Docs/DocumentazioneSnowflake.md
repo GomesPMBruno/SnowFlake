@@ -55,6 +55,7 @@
 
 ### Informazioni sul progetto
 
+  Progetto per il Modulo 306 del 3° anno di Scuola. I nostri 2 docenti per questo modulo, Luca Muggiasca e --- Petrini, ci hanno chiesto di creare un programma dove si possa 
   In questo capitolo raccogliere le informazioni relative al progetto, ad esempio:
 
   -   Allievo/i e docente/i coinvolti nel progetto e rispettivi ruoli,
@@ -144,7 +145,7 @@
 
 ### Analisi e specifica dei requisiti
 
-  Per eseguire il progetto, I nostri maestri ci hanno datto delle specifiche che dobbiamo riagiungere.
+  Per eseguire il progetto, I nostri maestri ci hanno datto delle specifiche che dobbiamo raggiungere.
   Queste specifiche, obbligatorie o meno, sono delle caratteristiche che il progetto deve raggrupare.
   
   ##### Questo lavoro sarà svolto utilizzando il Linguaggio JAVA, e quindi il progetto ha come requisiti minimi:
