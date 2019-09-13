@@ -67,6 +67,9 @@
 
 ### Abstract
 
+  È un progetto richiesto in uguale forma a tutti i allievi, dovè ognuno decide la forma migliore in cui risolvere/eseguire il progetto.
+  
+  
   E’ una breve e accurata rappresentazione dei contenuti di un documento,
   senza notazioni critiche o valutazioni. Lo scopo di un abstract efficace
   dovrebbe essere quello di far conoscere all’utente il contenuto di base
@@ -141,10 +144,29 @@
 
 ### Analisi e specifica dei requisiti
 
-  Il progettista, dopo aver ricevuto il mandato, in collaborazione con il
-  committente redige una lista di requisiti. Durante questi incontri,
-  tramite interviste (da inserire nei diari), il progettista deve cercare
-  di rispondere alle seguenti domande:
+  Per eseguire il progetto, I nostri maestri ci hanno datto delle specifiche che dobbiamo riagiungere.
+  Queste specifiche, obbligatorie o meno, sono delle caratteristiche che il progetto deve raggrupare.
+  
+  #####Questo lavoro sarà svolto utilizzando il Linguaggio JAVA, e quindi il progetto ha come requisiti minimi:
+  
+  - La creazione di un sito con una propria descrizione del software svolto.
+  - Deve essere possibile scaricare il software.
+  - I tagli del triangolo devono poter essere fatti con il mouse.
+  - Deve esserci un'interfaccia grafica.
+  - L'area di lavoro deve essere un triangolo.
+  - Deve essere possibile resettare i punti registrati.
+  - Deve esistere il tasto genera fiocco.
+  - Il lavoro deve poter essere salvato.
+  - Il salvataggio deve essere fatto in formato PNG o SVG.
+  - Il salvataggio deve avere dimensioni definite dall'utente.
+  - Deve essere possibile salvare i punti di taglio.
+  
+  #####Come Bonus ci è stato anche proposto di fare:
+  - La generazione deve avvenire in tempo reale.
+  - I punti devono poter essere spostati o rimossi.
+  
+  
+  
 
   -   Quali sono i bisogni del committente?
 
@@ -181,8 +203,8 @@
   |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
   |----|------------|--------|----|------|
   |Req-1|a|1|1.0|...|
-  |Req-1|b|1|1.0|...|
-  |Req-1|c|1|1.0|...|
+  |Req-2|b|1|1.0|...|
+  |Req-3|c|1|1.0|...|
   
   
 
