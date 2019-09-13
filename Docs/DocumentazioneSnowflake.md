@@ -1,7 +1,6 @@
 # Documentazione del Progetto
-#### Bruno Gomes
+## Bruno Gomes
 
-## SAM Trevano, 06.09.2019
 
 1. [Introduzione](#introduzione)
 
@@ -181,9 +180,9 @@
 
   |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
   |----|------------|--------|----|------|
-  |Req-12|Dovrà esserci una maschera di login|1|1.0|...|
-  |Req-13|Si dovranno poter immettere nuovi allievi|1|1.0|...|
-  |Req-14|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
+  |Req-1|a|1|1.0|...|
+  |Req-1|b|1|1.0|...|
+  |Req-1|c|1|1.0|...|
   
   
 
