@@ -261,16 +261,24 @@ in questo capitolo.
 
 ### Analisi dei mezzi
 
-Elencare e *descrivere* i mezzi disponibili per la realizzazione del
-progetto. Ricordarsi di sempre descrivere nel dettaglio le versioni e il
-modello di riferimento.
+#### Software
+---
 
-SDK, librerie, tools utilizzati per la realizzazione del progetto e
-eventuali dipendenze.
+Il software nel PC:
 
-Su quale piattaforma dovrà essere eseguito il prodotto? Che hardware
-particolare è coinvolto nel progetto? Che particolarità e limitazioni
-presenta? Che hw sarà disponibile durante lo sviluppo?
+- Sublime Text 3
+- ProjectLibre
+- GitHub Desktop
+
+---
+<br>
+
+#### Hardware
+---
+
+- Asus, Intel Core I3-7020U, RAM 4GB, Intel HD Graphics 620, Windows 10 64 bit
+
+---
 
 ## Progettazione
 
