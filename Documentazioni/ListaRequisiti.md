@@ -1,6 +1,5 @@
 |ID |Requisito |Priorità |Versione |
 |---|----------|---------|---------|
-|---|----------|---------|---------|
 |Req-1|Il software deve essere scritto in linguaggio Java o Javascript|1|1.0|
 |Req-2|In qualsiasi caso deve esistere un sito con la descrizione del programma|2|1.0|
 |Req-2.1|Nel sito si può scaricare il programma|2|1.0|

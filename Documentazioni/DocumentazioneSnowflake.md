@@ -55,7 +55,7 @@
 
 ### Informazioni sul progetto
 
-  Progetto per il Modulo 306 del 3° anno di Scuola, nella sezione di Informatica. I nostri 2 docenti per questo modulo, Luca Muggiasca e --- Petrini, ci hanno chiesto di creare un programma dove si possa creare dei Fiocchi di Neve. Per fare questo si deve scegliere il pattern di un triangolo creando dei poligoni che cancellano parte del triangolo. Il progetto è iniziato il 6/9/2019 e finisce il 13/12/2019.
+  Progetto per il Modulo 306 del 3° anno di Scuola, nella sezione di Informatica. I nostri 2 docenti per questo modulo, Luca Muggiasca e Geo Petrini, ci hanno chiesto di creare un programma dove si possa creare dei Fiocchi di Neve. Per fare questo si deve scegliere il pattern di un triangolo creando dei poligoni che cancellano parte del triangolo. Il progetto è iniziato il 6/9/2019 e finisce il 20/12/2019.
   
   
   
@@ -201,18 +201,6 @@
   considerati cruciali. Non si deve scordare che i requisiti non
   rappresentano delle attività bensì delle caratteristiche che il prodotto
   dovrà possedere.
-
-
-
-
-  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
-  |----|------------|--------|----|------|
-  |Req-1|a|1|1.0|...|
-  |Req-2|b|1|1.0|...|
-  |Req-3|c|1|1.0|...|
-  
-  
-
 
 
 **Spiegazione elementi tabella dei requisiti:**
