@@ -5,6 +5,7 @@
 - [2019-09-06](Diari/BRUGOM_ModelloDiario_2019-09-06.md)
 - [2019-09-13](Diari/BRUGOM_ModelloDiario_2019-09-13.md)
 - [2019-09-20](Diari/BRUGOM_ModelloDiario_2019-09-20.md)
+- [2019-09-27](Diari/BRUGOM_ModelloDiario_2019-09-27.md)
 
 ### Documenti
 - [Documentazione](Documentazioni/DocumentazioneSnowflake.md)
