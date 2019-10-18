@@ -246,6 +246,7 @@ Il software nel PC:
 - Sublime Text 3
 - ProjectLibre
 - GitHub Desktop
+- Apache NetBeans IDE 11.1
 
 ---
 <br>
