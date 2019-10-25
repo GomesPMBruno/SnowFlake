@@ -56,21 +56,29 @@
 ### Informazioni sul progetto
 
   Progetto per il Modulo 306 del 3° anno di Scuola, nella sezione di Informatica. I nostri 2 docenti per questo modulo, Luca Muggiasca e Geo Petrini, ci hanno chiesto di creare un programma dove si possa creare dei Fiocchi di Neve. Per fare questo si deve scegliere il pattern di un triangolo creando dei poligoni che cancellano parte del triangolo. Il progetto è iniziato il 6/9/2019 e finisce il 20/12/2019.
-  
-  
-  
-  -------
-  In questo capitolo raccogliere le informazioni relative al progetto, ad esempio:
-
-  -   Allievo/i e docente/i coinvolti nel progetto e rispettivi ruoli,
-
-  -   scuola ,sezione, materia/e,
-
-  -   date di inizio e termine di consegna,
-
-  -   …
 
 ### Abstract
+
+
+
+In questo progetto il scopo principale è quello di creare un fiocco di neve. Per realizzare questo si deve tagliare un triangolo utilizando dei poligoni con dei vertici creati dai click del utente.
+
+Dovrò creare 2 sezioni importanti:
+
+  - Il sito con una descrizione del progetto e un tasto di download del programma.
+
+  - Il programma 
+
+
+
+
+
+
+
+
+
+
+
 
   È un progetto richiesto in uguale forma a tutti i allievi, dovè ognuno decide la forma migliore in cui risolvere/eseguire il progetto.
   
@@ -260,10 +268,10 @@ Il software nel PC:
 
 ## Progettazione
 
-Questo capitolo descrive esaustivamente come deve essere realizzato il
-prodotto fin nei suoi dettagli. Una buona progettazione permette
-all’esecutore di evitare fraintendimenti e imprecisioni
-nell’implementazione del prodotto.
+/*Questo capitolo descrive esaustivamente come deve essere realizzato il prodotto fin nei suoi dettagli. Una buona progettazione permette all’esecutore di evitare fraintendimenti e imprecisioni nell’implementazione del prodotto.*/
+
+
+
 
 ### Design dell’architettura del sistema
 
