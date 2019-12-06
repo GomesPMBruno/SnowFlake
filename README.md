@@ -1,5 +1,5 @@
 # SnowFlake
-##Progetto del modulo 306, Bruno Gomes, I3AA
+## Progetto del modulo 306, Bruno Gomes, I3AA
 
 ### Diari di lavoro
 - [2019-09-06](Diari/BRUGOM_ModelloDiario_2019-09-06.md)
@@ -14,6 +14,7 @@
 - [2019-11-15](Diari/BRUGOM_ModelloDiario_2019-11-15.md)
 - [2019-11-22](Diari/BRUGOM_ModelloDiario_2019-11-22.md)
 - [2019-11-29](Diari/BRUGOM_ModelloDiario_2019-11-29.md)
+- [2019-12-06](Diari/BRUGOM_ModelloDiario_2019-11-29.md)
 
 ### Documenti
 - [Documentazione](Documentazioni/DocumentazioneSnowflake.md)
