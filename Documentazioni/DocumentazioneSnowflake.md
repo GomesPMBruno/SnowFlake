@@ -455,23 +455,4 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 
 - [Sito](http://samtinfo.ch/i17perbru)
 
-- [QDC]()
-
-Elenco degli allegati, esempio:
-
--   Diari di lavoro
-
--   Codici sorgente/documentazione macchine virtuali
-
--   Istruzioni di installazione del prodotto (con credenziali
-    di accesso) e/o di eventuali prodotti terzi
-
--   Documentazione di prodotti di terzi
-
--   Eventuali guide utente / Manuali di utilizzo
-
--   Mandato e/o Qdc
-
--   Prodotto
-
--   …
+- [QDC](FioccoDiNeve---QdC)
