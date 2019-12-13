@@ -14,7 +14,8 @@
 - [2019-11-15](Diari/BRUGOM_ModelloDiario_2019-11-15.md)
 - [2019-11-22](Diari/BRUGOM_ModelloDiario_2019-11-22.md)
 - [2019-11-29](Diari/BRUGOM_ModelloDiario_2019-11-29.md)
-- [2019-12-06](Diari/BRUGOM_ModelloDiario_2019-11-29.md)
+- [2019-12-06](Diari/BRUGOM_ModelloDiario_2019-12-06.md)
+- [2019-12-13](Diari/BRUGOM_ModelloDiario_2019-12-13.md)
 
 ### Documenti
 - [Documentazione](Documentazioni/DocumentazioneSnowflake.md)

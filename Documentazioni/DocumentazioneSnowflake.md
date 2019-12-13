@@ -10,7 +10,7 @@
 
   - [Scopo](#scopo)
 
-1. [Analisi](#analisi)
+2. [Analisi](#analisi)
 
   - [Analisi del dominio](#analisi-del-dominio)
   
@@ -22,15 +22,15 @@
 
   - [Pianificazione](#pianificazione)
 
-1. [Progettazione](#progettazione)
+3. [Progettazione](#progettazione)
 
   - [Design dell’architettura del sistema](#design-dell’architettura-del-sistema)
 
   - [Design dei dati e database](#design-dei-dati-e-database)
 
-1. [Implementazione](#implementazione)
+4. [Implementazione](#implementazione)
 
-1. [Test](#test)
+5. [Test](#test)
 
   - [Protocollo di test](#protocollo-di-test)
 
@@ -38,17 +38,17 @@
 
   - [Mancanze/limitazioni conosciute](#mancanze/limitazioni-conosciute)
 
-1. [Consuntivo](#consuntivo)
+6. [Consuntivo](#consuntivo)
 
-1. [Conclusioni](#conclusioni)
+7. [Conclusioni](#conclusioni)
 
   - [Sviluppi futuri](#sviluppi-futuri)
 
   - [Considerazioni personali](#considerazioni-personali)
 
-1. [Sitografia](#sitografia)
+8. [Sitografia](#sitografia)
 
-1. [Allegati](#allegati)
+9. [Allegati](#allegati)
 
 
 ## Introduzione
@@ -60,30 +60,17 @@
 ### Abstract
 
 
-
 In questo progetto il scopo principale è quello di creare un fiocco di neve. Per realizzare questo si deve tagliare un triangolo utilizando dei poligoni con dei vertici creati dai click del utente.
 
 Dovrò creare 2 sezioni importanti:
 
   - Il sito con una descrizione del progetto e un tasto di download del programma.
 
-  - Il programma 
+  - Il programma funzionante, con una GUI chiara.
 
+Il progetto viene richiesto in uguale forma a tutti i allievi, dove ognuno decide la forma migliore in cui risolvere/eseguire il progetto.
 
-
-
-
-
-
-
-
-
-
-
-  È un progetto richiesto in uguale forma a tutti i allievi, dovè ognuno decide la forma migliore in cui risolvere/eseguire il progetto.
-  
-  
-  E’ una breve e accurata rappresentazione dei contenuti di un documento,
+E’ una breve e accurata rappresentazione dei contenuti di un documento,
   senza notazioni critiche o valutazioni. Lo scopo di un abstract efficace
   dovrebbe essere quello di far conoscere all’utente il contenuto di base
   di un documento e metterlo nella condizione di decidere se risponde ai
@@ -160,7 +147,7 @@ Dovrò creare 2 sezioni importanti:
   Per eseguire il progetto, I nostri maestri ci hanno datto delle specifiche che dobbiamo raggiungere.
   Queste specifiche, obbligatorie o meno, sono delle caratteristiche che il progetto deve raggrupare.
   
-  ##### Questo lavoro sarà svolto utilizzando il Linguaggio JAVA, e quindi il progetto ha come requisiti minimi:
+##### Questo lavoro sarà svolto utilizzando il Linguaggio JAVA, e quindi il progetto ha come requisiti minimi:
   
   - La creazione di un sito con una propria descrizione del software svolto.
   - Deve essere possibile scaricare il software.
@@ -174,13 +161,12 @@ Dovrò creare 2 sezioni importanti:
   - Il salvataggio deve avere dimensioni definite dall'utente.
   - Deve essere possibile salvare i punti di taglio.
   
-  ##### Come Bonus ci è stato anche proposto di fare:
+##### Come Bonus ci è stato anche proposto di fare:
   - La generazione deve avvenire in tempo reale.
   - I punti devono poter essere spostati o rimossi.
   
   
-  
-  ------------
+####------------
   -   Quali sono i bisogni del committente?
 
   -   Quali funzioni deve svolgere il prodotto?
@@ -257,7 +243,6 @@ Il software nel PC:
 - Apache NetBeans IDE 11.1
 
 ---
-<br>
 
 #### Hardware
 ---
@@ -379,10 +364,7 @@ riportati gli errori e i problemi riscontrati e poi risolti durante il
 progetto.
 
 ## Consuntivo
-
-Consuntivo del tempo di lavoro effettivo e considerazioni riguardo le
-differenze rispetto alla pianificazione (cap 1.7) (ad esempio Gannt
-consuntivo).
+Ultimo Gantt che verifica il progresso delle attività
 
 ## Conclusioni
 
@@ -398,37 +380,7 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 ### Considerazioni personali
   Cosa ho imparato in questo progetto? ecc
 
-## Bibliografia
-
-### Bibliografia per articoli di riviste
-1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
-    dell’organizzazione,
-
-2.  Titolo dell’articolo (tra virgolette),
-
-3.  Titolo della rivista (in italico),
-
-4.  Anno e numero
-
-5.  Pagina iniziale dell’articolo,
-
-### Bibliografia per libri
-
-
-1.  Cognome e nome (o iniziali) dell’autore o degli autori, o nome
-    dell’organizzazione,
-
-2.  Titolo del libro (in italico),
-
-3.  ev. Numero di edizione,
-
-4.  Nome dell’editore,
-
-5.  Anno di pubblicazione,
-
-6.  ISBN.
-
-### Sitografia
+## Sitografia
 
 1.  URL del sito (se troppo lungo solo dominio, evt completo nel
     diario),
@@ -444,7 +396,6 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 
 ## Allegati
 
-
 - [README](../../../)
 
 - [Diari di Lavoro](../Diari)
@@ -455,4 +406,4 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 
 - [Sito](http://samtinfo.ch/i17perbru)
 
-- [QDC](FioccoDiNeve---QdC)
+- [QDC](FioccoDiNeve---QdC.pdf)
