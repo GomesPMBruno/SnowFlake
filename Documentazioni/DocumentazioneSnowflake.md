@@ -445,7 +445,15 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 ## Allegati
 
 
+- [README](../)
+
 - [Prova](../Diari)
+
+- [Codice](../Source)
+
+- [JAR](../Dist)
+
+- [Sito](samtinfo.ch/i17perbru)
 
 Elenco degli allegati, esempio:
 
