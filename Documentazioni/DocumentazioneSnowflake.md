@@ -455,6 +455,8 @@ facilmente generalizzabili o sono specifici di un caso particolare? ecc
 
 - [Sito](http://samtinfo.ch/i17perbru)
 
+- [QDC]()
+
 Elenco degli allegati, esempio:
 
 -   Diari di lavoro
