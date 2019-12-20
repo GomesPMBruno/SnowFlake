@@ -75,9 +75,10 @@ Il progetto viene suddiviso in diverse attività che insieme portano a buon fine
 
 ### Scopo
 
-  Lo scopo del progetto (scopi didattici/scopi operativi). Dovrebbe
-  descrivere il mandato, ma non vanno ricopiate le informazioni del
-  quaderno dei compiti (che va invece allegato).
+  Questo progetto ha diversi scopi collegatti al nostro insegnamento scolastico:
+  - 1: Creazione del Gantt, faccendosi imparare a fondo le diverse caratteristiche e fasi di un progetto.
+  - 2: Creare dei codici che permettano ai utenti di creare dei fiocchi di neve, sia manualmente con l'input del utente stesso, sia per via di import di Snapshots gia existenti.
+  - 3: La gestione delle risorse Tempo Impiegato in contro Difficoltà delle attività.
 
 
 ## Analisi
@@ -165,25 +166,44 @@ Il software nel PC:
 
 ## Progettazione
 
-/*Questo capitolo descrive esaustivamente come deve essere realizzato il prodotto fin nei suoi dettagli. Una buona progettazione permette all’esecutore di evitare fraintendimenti e imprecisioni nell’implementazione del prodotto.*/
+FioccoPanel:
 
-### Design procedurale
+  - drawPoly() -> Metodo che svuota e ricrea i poligoni del Triangolo e di tutti i Punti.
 
-Descrive i concetti dettagliati dell’architettura/sviluppo utilizzando
-ad esempio:
+public void drawPoly(){     
 
--   Diagrammi di flusso e Nassi.
+            triangolo.reset();
+            puntiPoly.reset();
+            if (first) {
+                height = this.getHeight() / 2;
+                cateto = (int)(height * 1.1547) / 2;
+                oldHeight = this.getHeight();
+                oldWidth = this.getWidth();
+                first = !first;
+            }
+            
+            currentHeight = this.getHeight();
+            currentWidth = this.getWidth();
+            
+            calculusX = (this.getWidth() - cateto) / 2;
+            
+            calculusY = (this.getHeight() / 4);
+            
+            triangolo.addPoint(calculusX, calculusY);
+            triangolo.addPoint(calculusX, calculusY + height);
+            triangolo.addPoint(calculusX + cateto, calculusY);
+            
+            dx = currentWidth - oldWidth;
+            dy = currentHeight - oldHeight;
+            
+            for(int i = 0; i < punti.size(); i++){
+                puntiPoly.addPoint(punti.get(i).getX() + (int)punti.get(i).getDX(), punti.get(i).getY() + (int)punti.get(i).getDY());
+            }
+        }
 
--   Tabelle.
+Questo Metodo prepara tutti i calcoli necessari per centrare il poligono Triangolo e i punti(in teoria anche se i punti sono andati a brutto fine).
 
--   Classi e metodi.
-
--   Tabelle di routing
-
--   Diritti di accesso a condivisioni …
-
-Questi documenti permetteranno di rappresentare i dettagli procedurali
-per la realizzazione del prodotto.
+Diversi metodi come creaPNG, caricaPNG, creaSVG non vengono spiegati perchè sono delle template precise che non hanno molto da cambiare per avere il codice funzionante.
 
 ## Implementazione
 
