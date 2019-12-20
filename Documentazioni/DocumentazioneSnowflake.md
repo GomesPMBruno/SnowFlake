@@ -200,8 +200,32 @@ public void drawPoly(){
                 puntiPoly.addPoint(punti.get(i).getX() + (int)punti.get(i).getDX(), punti.get(i).getY() + (int)punti.get(i).getDY());
             }
         }
-
 Questo Metodo prepara tutti i calcoli necessari per centrare il poligono Triangolo e i punti(in teoria anche se i punti sono andati a brutto fine).
+
+|------|
+
+  - getIntersected() -> Metodo che intersetta entrambi le aree del Triangolo e della lista di Punti e crea l'area non condivisa tra loro.
+
+public void getIntersected(boolean type, boolean using){
+
+            triArea.reset();
+            puntiArea.reset();
+
+            triArea = new Area(triangolo);
+            puntiArea = new Area(puntiPoly);
+            
+            triArea.subtract(puntiArea);
+            if(!using){
+                if(type){
+                    generated = !generated; 
+                }else{
+                    previewed = !previewed;
+                }
+            }
+            repaint();
+        }
+Questo Metodo ricrea l'area in ogni repaint, e toglie l'area comune tra le 2 aree. In base al Boolean attuale, il metodo Paint() fa visualizzare o la preview del Triangolo o il fiocco generato.
+
 
 Diversi metodi come creaPNG, caricaPNG, creaSVG non vengono spiegati perchè sono delle template precise che non hanno molto da cambiare per avere il codice funzionante.
 
