@@ -167,40 +167,6 @@ Il software nel PC:
 
 /*Questo capitolo descrive esaustivamente come deve essere realizzato il prodotto fin nei suoi dettagli. Una buona progettazione permette all’esecutore di evitare fraintendimenti e imprecisioni nell’implementazione del prodotto.*/
 
-
-
-
-### Design dell’architettura del sistema
-
-Descrive:
-
--   La struttura del programma/sistema lo schema di rete...
-
--   Gli oggetti/moduli/componenti che lo compongono.
-
--   I flussi di informazione in ingresso ed in uscita e le
-    relative elaborazioni. Può utilizzare *diagrammi di flusso dei
-    dati* (DFD).
-
--   Eventuale sitemap
-
-### Design dei dati e database
-
-Descrizione delle strutture di dati utilizzate dal programma in base
-agli attributi e le relazioni degli oggetti in uso.
-
-### Schema E-R, schema logico e descrizione.
-
-Se il diagramma E-R viene modificato, sulla doc dovrà apparire l’ultima
-versione, mentre le vecchie saranno sui diari.
-
-### Design delle interfacce
-
-Descrizione delle interfacce interne ed esterne del sistema e
-dell’interfaccia utente. La progettazione delle interfacce è basata
-sulle informazioni ricavate durante la fase di analisi e realizzata
-tramite mockups.
-
 ### Design procedurale
 
 Descrive i concetti dettagliati dell’architettura/sviluppo utilizzando
@@ -221,43 +187,59 @@ per la realizzazione del prodotto.
 
 ## Implementazione
 
-In questo capitolo dovrà essere mostrato come è stato realizzato il
-lavoro. Questa parte può differenziarsi dalla progettazione in quanto il
-risultato ottenuto non per forza può essere come era stato progettato.
+Nel mio codice ci sono queste classi:
 
-Sulla base di queste informazioni il lavoro svolto dovrà essere
-riproducibile.
+  - Main: Classe principale. È un JFrame che contiene il JPanel(FioccoPanel) e tutti i tasti necessari per le diverse interazioni con il Triangolo/Fiocco.
 
-In questa parte è richiesto l’inserimento di codice sorgente/print
-screen di maschere solamente per quei passaggi particolarmente
-significativi e/o critici.
+  - FioccoPanel: JPanel che contiene il Triangolo da tagliare, dove il utente può inserire dei Punti e così creare il suo prorpio Fiocco personalizzato.
 
-Inoltre dovranno essere descritte eventuali varianti di soluzione o
-scelte di prodotti con motivazione delle scelte.
+  - Punti: Classe che mi permette di personalizzare direttamente i punti creati dal utente.
 
-Non deve apparire nessuna forma di guida d’uso di librerie o di
-componenti utilizzati. Eventualmente questa va allegata.
-
-Per eventuali dettagli si possono inserire riferimenti ai diari.
+  - PuntiListener: È un simplice listener che mi permette di mettere in relazione i Punti al FioccoPanel.
 
 ## Test
 
 ### Protocollo di test
 
-Definire in modo accurato tutti i test che devono essere realizzati per
-garantire l’adempimento delle richieste formulate nei requisiti. I test
-fungono da garanzia di qualità del prodotto. Ogni test deve essere
-ripetibile alle stesse condizioni.
-
-
 |Test Case      | TC-001                               |
 |---------------|--------------------------------------|
-|**Nome**       |Import a card, but not shown with the GUI |
-|**Riferimento**|REQ-012                               |
-|**Descrizione**|Import a card with KIC, KID and KIK keys with no obfuscation, but not shown with the GUI |
-|**Prerequisiti**|Store on local PC: Profile\_1.2.001.xml (appendix n\_n) and Cards\_1.2.001.txt (appendix n\_n) |
-|**Procedura**     | - Go to “Cards manager” menu, in main page click “Import Profiles” link, Select the “1.2.001.xml” file, Import the Profile - Go to “Cards manager” menu, in main page click “Import Cards” link, Select the “1.2.001.txt” file, Delete the cards, Select the “1.2.001.txt” file, Import the cards |
-|**Risultati attesi** |Keys visible in the DB (OtaCardKey) but not visible in the GUI (Card details) |
+|**Nome**       |Prova |
+|**Riferimento**|REQ-1                               |
+|**Descrizione**|Prendere il programma dal mio sito|
+|**Prerequisiti**|Internet, Sito e codice funzionante|
+|**Procedura**     |Andare al mio sito, prendere il file .rar (contenente programma e librerie) e provare ad aprirlo|
+|**Risultati ottenuti** |Il codice si è aperto e ed è pronto al uso|
+
+
+|Test Case      | TC-002                               |
+|---------------|--------------------------------------|
+|**Nome**       |Prova |
+|**Riferimento**|REQ-3.1                                |
+|**Descrizione**|Provare a diminiuire la dimensione della finestra sotto i 1024x768 pixel|
+|**Prerequisiti**|Impostare la dimensione minima|
+|**Procedura**     |Aprire il programma, provare a diminuire la finestra|
+|**Risultati attesi** |Il programma rimane con la minima dimensione possibile|
+
+|Test Case      | TC-003                               |
+|---------------|--------------------------------------|
+|**Nome**       |Aggiungere punti|
+|**Riferimento**|REQ-3.3                            |
+|**Descrizione**|Provare ad aggiungere punti su il Panel|
+|**Prerequisiti**|Codice che permette di aggiungere punti|
+|**Procedura**    |Aprire il programma, cliccare ovvunque su il Panel con il tasto sinistro del mouse|
+|**Risultati attesi** |I punti si creano con successo|
+
+|Test Case      | TC-003                               |
+|---------------|--------------------------------------|
+|**Nome**       |Togliere e spostare punti|
+|**Riferimento**|REQ-3.3.2                               |
+|**Descrizione**|Provare a togliere e spostare i punti dal Panel|
+|**Prerequisiti**|Codice che permette di togliere e spostare punti|
+|**Procedura**    |Aprire il programma, cliccare su un qualsiasi Punto con il tasto destro del mouse. Per spostarlo, premere con il tasto sinistro nel Punto e trascinare il mouse mentre se lo preme|
+|**Risultati attesi** |I punti si togliono e si spostano con successo|
+
+
+
 
 
 ### Risultati test
@@ -319,11 +301,11 @@ Avendo utilizzato il Gantt sono potutto verificare il mio progresso in comparass
 
 - [README](../../../)
 
-- [Diari di Lavoro](../Diari)
+- [Diari di Lavoro](Diari)
 
 - [Codice](../Source)
 
-- [JAR](../Dist)
+- [JAR](../Source/Dist)
 
 - [Sito](http://samtinfo.ch/i17perbru)
 
