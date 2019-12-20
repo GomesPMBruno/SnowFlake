@@ -55,10 +55,11 @@
 
 ### Informazioni sul progetto
 
-  Progetto per il Modulo 306 del 3° anno di Scuola, nella sezione di Informatica. I nostri 2 docenti per questo modulo, Luca Muggiasca e Geo Petrini, ci hanno chiesto di creare un programma dove si possa creare dei Fiocchi di Neve. Per fare questo si deve scegliere il pattern di un triangolo creando dei poligoni che cancellano parte del triangolo. Il progetto è iniziato il 6/9/2019 e finisce il 20/12/2019.
+  Progetto per il Modulo 306 del 3° anno di Scuola, nella sezione di Informatica. I nostri 2 docenti per questo modulo, **Luca Muggiasca** e **Geo Petrini**, ci hanno chiesto di creare un programma dove si possa creare dei **Fiocchi di Neve**. Per fare questo si deve scegliere il pattern di un triangolo creando dei poligoni che cancellano parte del triangolo. Il progetto è iniziato il 6/9/2019 e finisce il 20/12/2019.
 
 ### Abstract
 
+Il progetto viene richiesto come mezzo di scambiare la vecchia procedura di piegare un foglio diverse volte e dopo tagliare il foglio.
 
 In questo progetto il scopo principale è quello di creare un fiocco di neve. Per realizzare questo si deve tagliare un triangolo utilizando dei poligoni con dei vertici creati dai click del utente.
 
@@ -70,42 +71,7 @@ Dovrò creare 2 sezioni importanti:
 
 Il progetto viene richiesto in uguale forma a tutti i allievi, dove ognuno decide la forma migliore in cui risolvere/eseguire il progetto.
 
-E’ una breve e accurata rappresentazione dei contenuti di un documento,
-  senza notazioni critiche o valutazioni. Lo scopo di un abstract efficace
-  dovrebbe essere quello di far conoscere all’utente il contenuto di base
-  di un documento e metterlo nella condizione di decidere se risponde ai
-  suoi interessi e se è opportuno il ricorso al documento originale.
-
-  Può contenere alcuni o tutti gli elementi seguenti:
-
-  -   **Background/Situazione iniziale**
-
-  -   **Descrizione del problema e motivazione**: Che problema ho cercato
-      di risolvere? Questa sezione dovrebbe includere l'importanza del
-      vostro lavoro, la difficoltà dell'area e l'effetto che potrebbe
-      avere se portato a termine con successo.
-
-  -   **Approccio/Metodi**: Come ho ottenuto dei progressi? Come ho
-      risolto il problema (tecniche…)? Quale è stata l’entità del mio
-      lavoro? Che fattori importanti controllo, ignoro o misuro?
-
-  -   **Risultati**: Quale è la risposta? Quali sono i risultati? Quanto è
-      più veloce, più sicuro, più economico o in qualche altro aspetto
-      migliore di altri prodotti/soluzioni?
-
-  Esempio di abstract:
-
-  > *As the size and complexity of today’s most modern computer chips
-  > increase, new techniques must be developed to effectively design and
-  > create Very Large Scale Integration chips quickly. For this project, a
-  > new type of hardware compiler is created. This hardware compiler will
-  > read a C++ program, and physically design a suitable microprocessor
-  > intended for running that specific program. With this new and powerful
-  > compiler, it is possible to design anything from a small adder, to a
-  > microprocessor with millions of transistors. Designing new computer
-  > chips, such as the Pentium 4, can require dozens of engineers and
-  > months of time. With the help of this compiler, a single person could
-  > design such a large-scale microprocessor in just weeks.*
+Il progetto viene suddiviso in diverse attività che insieme portano a buon fine il risultato.
 
 ### Scopo
 
@@ -118,29 +84,8 @@ E’ una breve e accurata rappresentazione dei contenuti di un documento,
 
 ### Analisi del dominio
 
-  Questo capitolo dovrebbe descrivere il contesto in cui il prodotto verrà
-  utilizzato, da questa analisi dovrebbero scaturire le risposte a quesiti
-  quali ad esempio:
-
-  -   Background/Situazione iniziale
-
-  -   Quale è e come è organizzato il contesto in cui il prodotto dovrà
-      funzionare?
-
-  -   Come viene risolto attualmente il problema? Esiste già un prodotto
-      simile?
-
-  -   Chi sono gli utenti? Che bisogni hanno? Come e dove lavorano?
-
-  -   Che competenze/conoscenze/cultura posseggono gli utenti in relazione
-      con il problema?
-
-  -   Esistono convenzioni/standard applicati nel dominio?
-
-  -   Che conoscenze teoriche bisogna avere/acquisire per poter operare
-      efficacemente nel dominio?
-
-  -   …
+  Il prodotto FioccoDiNeve servirà ai utenti di simulare la creazione di un fiocco di neve di carta.
+  I principali utenti di questo codice saranno quelli che gli serve la generazione del fiocco, ossia, probabilmente avranno una qualche connessione con l'arte.
 
 ### Analisi e specifica dei requisiti
 
@@ -164,62 +109,29 @@ E’ una breve e accurata rappresentazione dei contenuti di un documento,
 ##### Come Bonus ci è stato anche proposto di fare:
   - La generazione deve avvenire in tempo reale.
   - I punti devono poter essere spostati o rimossi.
-  
-  
-####------------
-  -   Quali sono i bisogni del committente?
-
-  -   Quali funzioni deve svolgere il prodotto?
-
-  -   Come devono essere implementate?
-
-  -   L’utente, come vorrebbe/dovrebbe interagire con il prodotto?
-
-  -   Come verrà utilizzato il prodotto?
-
-  -   Che tipo di interfaccia si immagina?
-
-  -   Che prestazioni minime deve fornire il prodotto?
-
-  -   Che grado di sicurezza deve avere il prodotto?
-
-  -   …
-
-  In base alla lista dei requisiti e all’analisi degli stessi, il
-  progettista redige una *specifica dei requisiti* in cui elenca e
-  descrive in modo dettagliato quali sono le funzionalità che il prodotto
-  fornirà. La specifica dovrebbe essere abbastanza dettagliata da poter
-  essere utilizzata come base per lo sviluppo, ma non troppo; ad esempio
-  non dovrebbe contenere dettagli di implementazione, o definizioni
-  dettagliate dell’interfaccia grafica a meno che questi non siano
-  considerati cruciali. Non si deve scordare che i requisiti non
-  rappresentano delle attività bensì delle caratteristiche che il prodotto
-  dovrà possedere.
 
 
-**Spiegazione elementi tabella dei requisiti:**
 
-**ID**: identificativo univoco del requisito
-
-**Nome**: breve descrizione del requisito
-
-**Priorità**: indica l’importanza di un requisito nell’insieme del
-progetto, definita assieme al committente. Ad esempio poter disporre di
-report con colonne di colori diversi ha priorità minore rispetto al
-fatto di avere un database con gli elementi al suo interno. Solitamente
-si definiscono al massimo di 2-3 livelli di priorità.
-
-**Versione**: indica la versione del requisito. Ogni modifica del
-requisito avrà una versione aggiornata.
-
-Sulla documentazione apparirà solamente l’ultima versione, mentre le
-vecchie dovranno essere inserite nei diari.
-
-**Note**: eventuali osservazioni importanti o riferimenti ad altri
-requisiti.
-
-**Sotto requisiti**: elementi che compongono il requisito.
-
+|ID |Requisito |Priorità |Versione |
+|---|----------|---------|---------|
+|Req-1|Il software deve essere scritto in linguaggio Java o Javascript|1|1.0|
+|Req-2|In qualsiasi caso deve esistere un sito con la descrizione del programma|2|1.0|
+|Req-2.1|Nel sito si può scaricare il programma|2|1.0|
+|Req-3|Si deve utilizzare un'interfaccia grafica (Frame)|1|1.0|
+|Req-3.1|La finistra dell'interfaccia è ridimensionabile, minimo 1024x768|1|1.0|
+|Req-3.2|All'avvio del programma deve aparire un triangolo da tagliare con dei punti|1|1.0|
+|Req-3.2.1|Il triangolo si ridimensiona in base alla grandezza dell'interfaccia (comincia a 50%)|1|1.0|
+|Req-3.3|I punti devono essere creati con il mouse|1|1.0|
+|Req-3.3.1|Deve essere possibile resettare i punti|1|1.0|
+|Req-3.3.2|I punti devono poter essere spostati o rimossi|3|1.0|
+|Req-4|Deve esistere un tasto 'genera fiocco'|1|1.0|
+|Req-4.1|La generazione del fiocco viene fatta in tempo reale|3|1.0|
+|Req-5|Si può salvare il fiocco creato|1|1.0|
+|Req-5.1|Questo fiocco può essere salvato in formato PNG o SVG con un bottone|1|1.0|
+|Req-5.2|Il salvataggio avrà delle dimensioni definite dall'utente|1|1.0|
+|Req-5.3|I punti devono essere salvabili in un file|1|1.0|
+|Req-5.4|I punti potranno essere importati tramite esplora file|1|1.0|
+|Req-6|È possibile scambiare tra creazione/eliminazione punto tramite un bottone|3|1.0|
 
 ### Use case
 
