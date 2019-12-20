@@ -229,7 +229,7 @@ Nel mio codice ci sono queste classi:
 |**Procedura**    |Aprire il programma, cliccare ovvunque su il Panel con il tasto sinistro del mouse|
 |**Risultati attesi** |I punti si creano con successo|
 
-|Test Case      | TC-003                               |
+|Test Case      | TC-004                               |
 |---------------|--------------------------------------|
 |**Nome**       |Togliere e spostare punti|
 |**Riferimento**|REQ-3.3.2                               |
@@ -238,24 +238,23 @@ Nel mio codice ci sono queste classi:
 |**Procedura**    |Aprire il programma, cliccare su un qualsiasi Punto con il tasto destro del mouse. Per spostarlo, premere con il tasto sinistro nel Punto e trascinare il mouse mentre se lo preme|
 |**Risultati attesi** |I punti si togliono e si spostano con successo|
 
-
-
-
-
 ### Risultati test
 
-Tabella riassuntiva in cui si inseriscono i test riusciti e non del
-prodotto finale. Se un test non riesce e viene corretto l’errore, questo
-dovrà risultare nel documento finale come riuscito (la procedura della
-correzione apparirà nel diario), altrimenti dovrà essere descritto
-l’errore con eventuali ipotesi di correzione.
+|Test|Risultato|
+|---|--|
+|001|Successo|
+|002|Successo|
+|003|Successo|
+|004|Successo|
 
 ### Mancanze/limitazioni conosciute
 
-Descrizione con motivazione di eventuali elementi mancanti o non
-completamente implementati, al di fuori dei test case. Non devono essere
-riportati gli errori e i problemi riscontrati e poi risolti durante il
-progetto.
+**Spostamento Punti**: Ho avuto problemi con lo spostamento dei punti.
+
+**Generazione Fiocco**: Il fiocco sono esce dai bordi quando la ridimensione della finestra ha molta altezza e pocca larghezza.
+
+**Salvataggio non corretto in PNG**: Il salvataggio in PNG mi torna il fiocco in bianco e non sono riuscito a scoprire come corregere quello.
+
 
 ## Consuntivo
 Ultimo Gantt che verifica il progresso delle attività
@@ -264,21 +263,17 @@ Ultimo Gantt che verifica il progresso delle attività
 
 ## Conclusioni
 
-Quali sono le implicazioni della mia soluzione? Che impatto avrà?
-Cambierà il mondo? È un successo importante? È solo un’aggiunta
-marginale o è semplicemente servita per scoprire che questo percorso è
-stato una perdita di tempo? I risultati ottenuti sono generali,
-facilmente generalizzabili o sono specifici di un caso particolare? ecc
-
 ### Sviluppi futuri
   Sicuramente sarebbe conveniente aggiungere tutti i punti che non sono riuscito ad arrivare.
 
-- La corretta ridimenione dei punti
-- Il salvataggio corretto del PNG
+- La corretta ridimensione dei punti.
+- Il salvataggio corretto del PNG.
+- La corretta generazione del Fiocco di Neve.
 
 ### Considerazioni personali
-  Questo progetto è stato veramente impegnativo e mi ha fatto rendere conto di quanto importante è gestire il tempo, in modo che si possa fare tutto corretamente.
-Avendo utilizzato il Gantt sono potutto verificare il mio progresso in comparassione a quello che avevo pianificatto. Anche se non sono riuscito a fare tutto perfetto, sono contento con il mio risultato finale.
+Questo progetto è stato veramente impegnativo e mi ha fatto rendere conto di quanto importante è gestire il tempo, in modo che si possa fare tutto corretamente.
+Avendo utilizzato il Gantt sono potutto verificare il mio progresso in comparassione a quello che avevo pianificatto. Anche se non sono riuscito a fare tutto perfetto, sono abbastanza contento con il mio risultato finale.
+Farò più attenzione alle mie risorse disponibili nei prossimi progetti, e penso di sicuro che andranno bene.
 
 ## Sitografia
 
@@ -296,6 +291,8 @@ Avendo utilizzato il Gantt sono potutto verificare il mio progresso in comparass
 -  https://xmlgraphics.apache.org/batik/using/svg-generator.html, *SVG Generator*, 06-12-2019.
 
 -  http://www.java2s.com/Code/Java/2D-Graphics-GUI/DrawanImageandsavetopng.htm, *Draw an Image and save PNG*, 06-12-2019.
+
+- https://markdownlivepreview.com/, *Markdown Live Preview*, 18-12-2019.
 
 ## Allegati
 
