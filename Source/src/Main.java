@@ -177,7 +177,7 @@ public class Main extends javax.swing.JFrame {
         try{
             String path = new String(fc.getSelectedFile().toPath().toString());
             fioccoPanel.creaSVG(path);
-        }catch(Exception e){}
+        }catch(NoClassDefFoundError | Exception e){}
     }//GEN-LAST:event_imageSVGActionPerformed
 
     /**

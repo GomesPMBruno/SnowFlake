@@ -22,9 +22,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.Writer;
 import javax.imageio.ImageIO;
 import javax.swing.JOptionPane;
+
 import org.apache.batik.dom.GenericDOMImplementation;
 import org.apache.batik.svggen.SVGGraphics2D;
 import org.apache.batik.svggen.SVGGraphics2DIOException;
@@ -314,7 +314,7 @@ public class FioccoPanel extends JPanel implements MouseListener, MouseMotionLis
             this.paintComponent(svgGenerator);
             try {
                 svgGenerator.stream(path);
-            } catch (SVGGraphics2DIOException ex) {
+            } catch (NoClassDefFoundError | SVGGraphics2DIOException ex) {
                 JOptionPane jop = new JOptionPane();
                 jop.showOptionDialog(
                         null,
