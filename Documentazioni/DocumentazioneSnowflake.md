@@ -366,6 +366,8 @@ progetto.
 ## Consuntivo
 Ultimo Gantt che verifica il progresso delle attività
 
+![Gantt](GanttFinale.png)
+
 ## Conclusioni
 
 Quali sono le implicazioni della mia soluzione? Che impatto avrà?
@@ -375,24 +377,31 @@ stato una perdita di tempo? I risultati ottenuti sono generali,
 facilmente generalizzabili o sono specifici di un caso particolare? ecc
 
 ### Sviluppi futuri
-  Migliorie o estensioni che possono essere sviluppate sul prodotto.
+  Sicuramente sarebbe conveniente aggiungere tutti i punti che non sono riuscito ad arrivare.
+
+- La corretta ridimenione dei punti
+- Il salvataggio corretto del PNG
 
 ### Considerazioni personali
-  Cosa ho imparato in questo progetto? ecc
+  Questo progetto è stato veramente impegnativo e mi ha fatto rendere conto di quanto importante è gestire il tempo, in modo che si possa fare tutto corretamente.
+Avendo utilizzato il Gantt sono potutto verificare il mio progresso in comparassione a quello che avevo pianificatto. Anche se non sono riuscito a fare tutto perfetto, sono contento con il mio risultato finale.
 
 ## Sitografia
 
-1.  URL del sito (se troppo lungo solo dominio, evt completo nel
-    diario),
 
-2.  Eventuale titolo della pagina (in italico),
+-  https://www.thinkcalculator.com/planegeometry/triangle3060.php, *30 60 90 Right Triangle*, 08-11-2019.
 
-3.  Data di consultazione (GG-MM-AAAA).
+-  https://docs.oracle.com/javase/7/docs/api/java/util/List.html, *List*, 08-11-2019.
 
-**Esempio:**
+-  https://docs.oracle.com/javase/7/docs/api/java/awt/geom/Area.html, *Area*, 09-11-2019.
 
--   http://standards.ieee.org/guides/style/section7.html, *IEEE
-    Standards Style Manual*, 07-06-2008.
+-  https://docs.oracle.com/javase/7/docs/api/java/awt/Polygon.html, *Polygon*, 09-11-2019.
+
+-  https://docs.oracle.com/javase/7/docs/api/java/awt/geom/AffineTransform.html, *AffineTransform*, 15-11-2019.
+
+-  https://xmlgraphics.apache.org/batik/using/svg-generator.html, *SVG Generator*, 06-12-2019.
+
+-  http://www.java2s.com/Code/Java/2D-Graphics-GUI/DrawanImageandsavetopng.htm, *Draw an Image and save PNG*, 06-12-2019.
 
 ## Allegati
 
